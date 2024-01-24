@@ -115,10 +115,10 @@ rlt(Nrlt+1).ILMI.PID.hinf=hinfnorm(rlt(Nrlt+1).ILMI.PID.Gload);
 rlt(Nrlt+1).ILMI.PID.info=stepinfo_caseA(KPpid_ILMI,TIpid_ILMI,TDpid_ILMI,PhiD,par,t,x0,u0,[yf;dw],'PID');
 end
 Nrlt=Nrlt+1;
-save('github\caseA\lmilab_exA_tb1_rlt.mat','rlt','-append');
-load('github\caseA\lmilab_exA_tb1_rlt.mat','myfile');
+save('github\caseA\lmilab_exA_tb_rlt.mat','rlt','-append');
+load('github\caseA\lmilab_exA_tb_rlt.mat','myfile');
 end
 
 %Reload results
 clear
-load('github\caseA\lmilab_exA_tb1_rlt.mat','rlt');
+load('github\caseA\lmilab_exA_tb_rlt.mat','rlt');
