@@ -1,0 +1,203 @@
+----- start of PI calculation ---------------------------------------
+
+ Solver for generalized eigenvalue minimization 
+
+ Iterations   :    Best objective value so far 
+ 
+* switching to QR
+     1
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+    10
+* Feasibility radius set to  1.00e+10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+* Feasibility radius set to  1.00e+11
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+* Feasibility radius set to  1.00e+12
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+* Feasibility radius set to  1.00e+13
+    41
+    42
+    43
+    44
+* upper bound on optimal value set to  1.00e+08
+    45
+* upper bound on optimal value set to  1.00e+11
+    46
+* Feasibility radius set to  1.00e+15
+    47
+    48
+* Feasibility radius set to  1.00e+17
+* Feasibility radius set to  1.00e+18
+    49
+* Feasibility radius set to  1.00e+20
+    50
+* Feasibility radius set to  1.00e+22
+    51
+* Feasibility radius set to  1.00e+24
+    52
+* Feasibility radius set to  1.00e+26
+    53
+    54
+* Feasibility radius set to  1.00e+28
+* Feasibility radius set to  1.00e+29
+    55
+* Feasibility radius set to  1.00e+31
+    56
+    57
+
+ Result:  infeasibility
+[Warning: Unfeasible problem. Check or modify constraints] 
+[> In <a href="matlab: opentoline('C:\Users\HP\Dropbox\Livro_LMIChE\paper\PID_SOFS_L2N.m',105,1)">PID_SOFS_L2N at 105</a>
+  In <a href="matlab: opentoline('C:\Users\HP\Dropbox\Livro_LMIChE\paper\caseB\lmilab_exB.m',252,1)">lmilab_exB at 252</a>] 
+----- end of PI calculation -----------------------------------------
+----- start of PID calculation --------------------------------------
+
+ Solver for generalized eigenvalue minimization 
+
+ Iterations   :    Best objective value so far 
+ 
+* switching to QR
+     1
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+    10
+* Feasibility radius set to  1.00e+10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+* Feasibility radius set to  1.00e+11
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+* Feasibility radius set to  1.00e+12
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+* Feasibility radius set to  1.00e+13
+    41
+    42
+    43
+    44
+    45
+    46
+    47
+    48
+    49
+    50
+* Feasibility radius set to  1.00e+14
+    51
+    52
+    53
+    54
+    55
+    56
+    57
+    58
+    59
+    60
+* Feasibility radius set to  1.00e+15
+    61
+    62
+    63
+    64
+    65
+    66
+    67
+    68
+    69
+    70
+* Feasibility radius set to  1.00e+16
+    71
+    72
+    73
+    74
+    75
+* upper bound on optimal value set to  1.00e+08
+    76
+* upper bound on optimal value set to  1.00e+11
+    77
+* Feasibility radius set to  1.00e+18
+    78
+    79
+* Feasibility radius set to  1.00e+20
+* Feasibility radius set to  1.00e+21
+    80
+* Feasibility radius set to  1.00e+23
+    81
+* Feasibility radius set to  1.00e+25
+    82
+* Feasibility radius set to  1.00e+27
+    83
+* Feasibility radius set to  1.00e+29
+    84
+* Feasibility radius set to  1.00e+31
+    85
+    86
+    87
+
+ Result:  infeasibility
+[Warning: Unfeasible problem. Check or modify constraints] 
+[> In <a href="matlab: opentoline('C:\Users\HP\Dropbox\Livro_LMIChE\paper\PID_SOFS_L2N.m',105,1)">PID_SOFS_L2N at 105</a>
+  In <a href="matlab: opentoline('C:\Users\HP\Dropbox\Livro_LMIChE\paper\caseB\lmilab_exB.m',298,1)">lmilab_exB at 298</a>] 
+----- end of PID calculation ----------------------------------------
