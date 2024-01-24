@@ -9,7 +9,7 @@ tstart=0; tend=300; tstep=0.1; t=(tstart:tstep:tend)'; %time domain
 yf=[0.1;0.1]; dw=[0.245];
 
 Nrlt=0;
-save('github\caseB\lmilab_exB_tb1_rlt.mat');
+save('github\caseB\lmilab_exB_tb_rlt.mat');
 while Nrlt<length(myfile);
 rlt(Nrlt+1).data=myfile{Nrlt+1};
 load(rlt(Nrlt+1).data);
@@ -63,10 +63,10 @@ rlt(Nrlt+1).TW.PID.info=stepinfo_caseB(KPpid,KIpid,KDpid,PhiD,ss(A_pid,[Bu_pid,B
 end
 
 Nrlt=Nrlt+1;
-save('github\caseB\lmilab_exB_tb1_rlt.mat','rlt','-append');
-load('github\caseB\lmilab_exB_tb1_rlt.mat','myfile');
+save('github\caseB\lmilab_exB_tb_rlt.mat','rlt','-append');
+load('github\caseB\lmilab_exB_tb_rlt.mat','myfile');
 end
 
 %Reload results
 clear
-load('github\caseB\lmilab_exB_tb1_rlt.mat','rlt');
+load('github\caseB\lmilab_exB_tb_rlt.mat','rlt');

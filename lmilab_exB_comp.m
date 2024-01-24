@@ -109,13 +109,12 @@ hold on; stepplot(sys_BLT,t,plotopt,dataopt);
 
 %Set legend
 h=legend('This work','BHA16','CS03','BLT');
-%h.Position=[0.9,0.820,0.1,0.1];
 h.Position=[0.35,0.925,0.3,0.1];
 h.Orientation='horizontal';
 
 %Export figure
-print(figh,'C:\Users\HP\Dropbox\Livro_LMIChE\paper\fig4','-dsvg');
-print(figh,'C:\Users\HP\Dropbox\Livro_LMIChE\paper\fig4','-deps');
+print(figh,'github\fig4','-dsvg');
+print(figh,'github\fig4','-deps');
 
 %ITAE comparison
 info_TW=stepinfo_caseB(KP_TW,KI_TW,KD_TW,PhiD,ss(A_pid,[Bu_pid,Bw_pid],Cy_pid,0),t,[yf;dw],'PID');
