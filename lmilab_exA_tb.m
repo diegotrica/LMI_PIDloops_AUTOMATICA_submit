@@ -14,7 +14,7 @@ tstart=0; tend=300; tstep=0.1; t=(tstart:tstep:tend)'; %time domain
 yf=[0.1;5]; dw=[0.1;5];
 
 Nrlt=0;
-save('github\caseA\lmilab_exA_tb1_rlt.mat');
+save('github\caseA\lmilab_exA_tb_rlt.mat');
 while Nrlt<length(myfile);
 rlt(Nrlt+1).data=myfile{Nrlt+1};
 load(rlt(Nrlt+1).data);

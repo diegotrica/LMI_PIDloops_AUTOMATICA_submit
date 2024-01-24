@@ -1,7 +1,7 @@
 clear, close all
 
 Nrlt=0;
-load('github\caseA\lmilab_exA_tb1_rlt.mat','rlt');
+load('github\caseA\lmilab_exA_tb_rlt.mat','rlt');
 
 tstart=0; tend=120; tstep=0.1; t=(tstart:tstep:tend)'; %time domain
 yf=[0.1;5]; dw=[0.1;5];
