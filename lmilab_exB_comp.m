@@ -1,7 +1,7 @@
 clear, close all
 load('github\caseB\lmilab_exB_SOFS_L2N_Nd=5_Nl=7_PhiD=100_gL2=1000.mat');
 
-tstart=0; tend=300; tstep=0.1; t=(tstart:tstep:tend)'; %time domain
+tstart=0; tend=300; tstep=0.3; t=(tstart:tstep:tend)'; %time domain
 yf=[0.1;0.1]; dw=[0.245];
 
 %Tuning from this work
@@ -99,8 +99,9 @@ plotopt.TickLabel.FontSize=8;
 
 %Rendering figure
 figh.Units='centimeters';
-figh.Color='w';
-figh.OuterPosition=[0 0 16 12];
+figh.Color='none';
+figh.OuterPosition=[0 0 19 10.5];
+figh.Position=[0 0 19 10.5];
 
 stepplot(sys_TW,t,plotopt,dataopt);
 hold on; stepplot(sys_BHA16,t,plotopt,dataopt);
@@ -114,7 +115,7 @@ h.Orientation='horizontal';
 
 %Export figure
 print(figh,'github\fig4','-dsvg');
-print(figh,'github\fig4','-deps');
+print(figh,'github\fig4','-depsc');
 
 %ITAE comparison
 info_TW=stepinfo_caseB(KP_TW,KI_TW,KD_TW,PhiD,ss(A_pid,[Bu_pid,Bw_pid],Cy_pid,0),t,[yf;dw],'PID');
