@@ -63,19 +63,20 @@ ax=subplot(Ny,Ny+Nw,1+Ny+Nw);
 ylabel(ax,OutputName{2},'FontName','Helvetica','FontSize',8);
 
 figh.Units='centimeters';
-figh.Color='w';
-figh.OuterPosition=[0 0 16 16];
+figh.Color='none';
+figh.OuterPosition=[0 0 19 10.5];
+figh.Position=[0 0 19 10.5];
 
 %Set legend
 h=legend('TW','TW linear','ILMI','ILMI linear');
 h.Position=[0.40,0.955,0.2,0.05];
 h.Orientation='horizontal';
 h.FontName='Helvetica';
-h.FontSize=6;
+h.FontSize=8;
 
 %Saving figure
 print(figh,rlt(Nrlt+1).data(1:end-4),'-dsvg');
-print(figh,rlt(Nrlt+1).data(1:end-4),'-deps');
+print(figh,rlt(Nrlt+1).data(1:end-4),'-depsc');
 %--------------------------------------------------------------------
 %{
 Figure 2. Output step response of Van de Vusse non-isothermal
@@ -132,19 +133,20 @@ ax=subplot(Ny,Ny+Nw,1+Ny+Nw);
 ylabel(ax,OutputName{2},'FontName','Helvetica','FontSize',8);
 
 figh.Units='centimeters';
-figh.Color='w';
-figh.OuterPosition=[0 0 16 16];
+figh.Color='none';
+figh.OuterPosition=[0 0 19 10.5];
+figh.Position=[0 0 19 10.5];
 
 %Set legend
 h=legend('TW','TW linear','ILMI','ILMI linear');
 h.Position=[0.40,0.955,0.2,0.05];
 h.Orientation='horizontal';
 h.FontName='Helvetica';
-h.FontSize=6;
+h.FontSize=8;
 
 %Saving figure
 print(figh,rlt(Nrlt+1).data(1:end-4),'-dsvg');
-print(figh,rlt(Nrlt+1).data(1:end-4),'-deps');
+print(figh,rlt(Nrlt+1).data(1:end-4),'-depsc');
 %--------------------------------------------------------------------
 %{
 Figure 3. Output step response of Van de Vusse non-isothermal
@@ -201,17 +203,18 @@ ax=subplot(Ny,Ny+Nw,1+Ny+Nw);
 ylabel(ax,OutputName{2},'FontName','Helvetica','FontSize',8);
 
 figh.Units='centimeters';
-figh.Color='w';
-figh.OuterPosition=[0 0 16 16];
+figh.Color='none';
+figh.OuterPosition=[0 0 19 10.5];
+figh.Position=[0 0 19 10.5];
 
 %Set legend
 h=legend('TW','TW linear','ILMI','ILMI linear');
 h.Position=[0.40,0.955,0.2,0.05];
 h.Orientation='horizontal';
 h.FontName='Helvetica';
-h.FontSize=6;
+h.FontSize=8;
 
 %Saving figure
 print(figh,rlt(Nrlt+1).data(1:end-4),'-dsvg');
-print(figh,rlt(Nrlt+1).data(1:end-4),'-deps');
+print(figh,rlt(Nrlt+1).data(1:end-4),'-depsc');
 %--------------------------------------------------------------------
